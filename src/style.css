@@ -1,0 +1,47 @@
+/* #Header {
+  height: 700px;
+} */
+
+.nav-link {
+  color: white;
+}
+
+.jumbotron {
+  height: 700px;
+  padding-top: 15rem;
+  padding-bottom: 7rem;
+  background-image: url("../img/peter-broomfield-m3m-lnR90uM-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* z-index: 1;
+  position: relative; */
+}
+
+.features {
+  margin-top: -50px;
+  /* position: absolute;
+  z-index: 2; */
+}
+
+.card {
+  border: none;
+}
+
+.card img {
+  height: 272px;
+  width: 181px;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.card p {
+  margin: 208px 0 0 0;
+  border-radius: 0 0 30px 30px;
+  padding: 20px 56px;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.474);
+  color: white;
+  position: absolute;
+  z-index: 2;
+}
