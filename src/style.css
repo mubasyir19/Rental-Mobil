@@ -7,7 +7,8 @@
 }
 
 .jumbotron {
-  height: 700px;
+  /* height: 700px; */
+  height: 100vh;
   padding-top: 15rem;
   padding-bottom: 7rem;
   background-image: url("../img/peter-broomfield-m3m-lnR90uM-unsplash.jpg");
@@ -17,11 +18,11 @@
   position: relative; */
 }
 
-.features {
+/* .features {
   margin-top: -50px;
-  /* position: absolute;
-  z-index: 2; */
-}
+  position: absolute;
+  z-index: 2;
+} */
 
 .card {
   border: none;
@@ -44,4 +45,21 @@
   color: white;
   position: absolute;
   z-index: 2;
+}
+
+.features {
+  margin: 50px 0;
+}
+
+.icon {
+  padding: 10px;
+  /* background-color: red; */
+}
+
+.icon:hover {
+  background-color: #00ff47;
+}
+
+.icon h4 {
+  margin: 20px 20px 20px 10px;
 }
