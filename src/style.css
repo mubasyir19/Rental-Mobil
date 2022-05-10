@@ -1,6 +1,12 @@
-/* #Header {
-  height: 700px;
-} */
+.top {
+  background-image: url("../img/peter-broomfield-m3m-lnR90uM-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a h3 {
+  margin: auto 8px;
+}
 
 .nav-link {
   color: white;
@@ -11,9 +17,9 @@
   height: 100vh;
   padding-top: 15rem;
   padding-bottom: 7rem;
-  background-image: url("../img/peter-broomfield-m3m-lnR90uM-unsplash.jpg");
+  /* background-image: url("../img/peter-broomfield-m3m-lnR90uM-unsplash.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   /* z-index: 1;
   position: relative; */
 }
@@ -62,4 +68,21 @@
 
 .icon h4 {
   margin: 20px 20px 20px 10px;
+}
+
+a h3 {
+  margin: auto 10px;
+}
+
+/* =============== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f1f1f1;
 }

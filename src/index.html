@@ -17,56 +17,71 @@
     <!-- Logo in Tab Browser -->
     <link rel="icon" href="../img/Steer.png" />
 
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="/fontawesome/all.css" />
-
     <title>
       RentCar | Get a New Experience in Driving Safely, Comfortably, and Fast
     </title>
   </head>
   <body>
-    <!-- Navbar -->
-    <section id="navbar">
-      <nav class="navbar navbar-light bg-dark">
-        <div class="container">
-          <a class="navbar-brand text-light"
-            ><img src="../img/Logo.png" alt=""
-          /></a>
-          <ul class="nav d-flex">
-            <li class="nav-item">
-              <a class="nav-link text-light" aria-current="page" href="#"
-                >Home</a
+    <div class="top">
+      <!-- Navbar -->
+      <section id="navbar">
+        <nav class="navbar navbar-light bg-transparent">
+          <div class="container">
+            <a class="navbar-brand text-light d-flex"
+              ><svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Car List</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Info</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Boking</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <button class="btn btn-outline-success" type="submit">
-              Sign In
-            </button>
-          </form>
-        </div>
-      </nav>
-    </section>
-    <!-- Akhir Navbar -->
+                <path
+                  d="M20 0C31.046 0 40 8.954 40 20C40 31.046 31.046 40 20 40C8.954 40 0 31.046 0 20C0 8.954 8.954 0 20 0ZM12 22L4.124 22.002C4.56958 25.5264 6.17486 28.8025 8.68703 31.3143C11.1992 33.8261 14.4755 35.4309 18 35.876V28C16.4087 28 14.8826 27.3679 13.7574 26.2426C12.6321 25.1174 12 23.5913 12 22ZM35.876 22.002L28 22C28 23.5913 27.3679 25.1174 26.2426 26.2426C25.1174 27.3679 23.5913 28 22 28L22.002 35.876C25.5261 35.4305 28.802 33.8255 31.3138 31.3138C33.8255 28.802 35.4305 25.5261 35.876 22.002ZM24 20H16V22C16 22.5304 16.2107 23.0391 16.5858 23.4142C16.9609 23.7893 17.4696 24 18 24H22C22.5304 24 23.0391 23.7893 23.4142 23.4142C23.7893 23.0391 24 22.5304 24 22V20ZM20 4C16.1028 4.00007 12.3395 5.42237 9.4165 8.00001C6.49347 10.5776 4.61158 14.1334 4.124 18H12C12 17.4696 12.2107 16.9609 12.5858 16.5858C12.9609 16.2107 13.4696 16 14 16H26C26.5304 16 27.0391 16.2107 27.4142 16.5858C27.7893 16.9609 28 17.4696 28 18H35.876C35.3884 14.1334 33.5065 10.5776 30.5835 8.00001C27.6605 5.42237 23.8972 4.00007 20 4Z"
+                  fill="white"
+                />
+              </svg>
+              <h3>RentCar</h3>
+            </a>
+            <ul class="nav d-flex">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./catalog.html"
+                  >Car List</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Boking</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-outline-success" type="submit">
+                Sign In
+              </button>
+            </form>
+          </div>
+        </nav>
+      </section>
+      <!-- Akhir Navbar -->
 
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center text-light">
-      <h1 class="container display-4">
-        Get a New Experience in Driving Safely, Comfortably, and Fast
-      </h1>
-      <!-- <p class="lead mt-3">
+      <!-- Jumbotron -->
+      <section class="jumbotron text-center text-light">
+        <h1 class="container display-4">
+          Get a New Experience in Driving Safely, Comfortably, and Fast
+        </h1>
+        <!-- <p class="lead mt-3">
         This is a simple hero unit, a simple jumbotron-style component for
         calling extra attention to featured content or information.
       </p>
@@ -74,11 +89,12 @@
         It uses utility classes for typography and spacing to space content out
         within the larger container.
       </p> -->
-      <a class="btn btn-primary btn-lg mt-5" href="#" role="button"
-        >Get Started</a
-      >
-    </section>
-    <!-- Akhir Jumbotron -->
+        <a class="btn btn-primary btn-lg mt-5" href="#" role="button"
+          >Get Started</a
+        >
+      </section>
+      <!-- Akhir Jumbotron -->
+    </div>
 
     <!-- Features -->
     <!-- <section class="features">
@@ -153,9 +169,7 @@
       </div>
 
       <div class="container text-center">
-        <a class="btn btn-dark btn-lg mt-5" href="#" role="button"
-          >Get Started</a
-        >
+        <a class="btn btn-dark btn-lg mt-5" href="#" role="button">See More</a>
       </div>
     </section>
     <!-- Akhir Popular -->
@@ -184,9 +198,9 @@
     <!-- Attention -->
     <section class="attention">
       <div class="container">
-        <div class="bann d-flex justify-content-around">
-          <img src="/img/speed.png" alt="" />
-          <div class="title ms-5 me-5">
+        <div class="bann d-flex justify-content-around m-5">
+          <img class="" src="/img/speed.png" alt="" />
+          <div class="title m-5">
             <h3>
               Sometimes the best therapy is long-distance driving and good
               music.
@@ -200,6 +214,87 @@
       </div>
     </section>
     <!-- Akhir Attention -->
+
+    <!-- Footer -->
+    <div class="bg-secondary">
+      <footer class="row row-cols-5 py-5 my-5 ms-5 me-5">
+        <div class="col">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 link-dark text-decoration-none"
+          >
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 0C31.046 0 40 8.954 40 20C40 31.046 31.046 40 20 40C8.954 40 0 31.046 0 20C0 8.954 8.954 0 20 0ZM12 22L4.124 22.002C4.56958 25.5264 6.17486 28.8025 8.68703 31.3143C11.1992 33.8261 14.4755 35.4309 18 35.876V28C16.4087 28 14.8826 27.3679 13.7574 26.2426C12.6321 25.1174 12 23.5913 12 22ZM35.876 22.002L28 22C28 23.5913 27.3679 25.1174 26.2426 26.2426C25.1174 27.3679 23.5913 28 22 28L22.002 35.876C25.5261 35.4305 28.802 33.8255 31.3138 31.3138C33.8255 28.802 35.4305 25.5261 35.876 22.002ZM24 20H16V22C16 22.5304 16.2107 23.0391 16.5858 23.4142C16.9609 23.7893 17.4696 24 18 24H22C22.5304 24 23.0391 23.7893 23.4142 23.4142C23.7893 23.0391 24 22.5304 24 22V20ZM20 4C16.1028 4.00007 12.3395 5.42237 9.4165 8.00001C6.49347 10.5776 4.61158 14.1334 4.124 18H12C12 17.4696 12.2107 16.9609 12.5858 16.5858C12.9609 16.2107 13.4696 16 14 16H26C26.5304 16 27.0391 16.2107 27.4142 16.5858C27.7893 16.9609 28 17.4696 28 18H35.876C35.3884 14.1334 33.5065 10.5776 30.5835 8.00001C27.6605 5.42237 23.8972 4.00007 20 4Z"
+                fill="black"
+              />
+            </svg>
+            <h3>RentCar</h3>
+            <!-- <span>RentCar</span> -->
+          </a>
+          <h5 class="mt-4">
+            Get a new exprerience in driving safely, comfortably, and fast
+          </h5>
+          <h6 class="mt-4">Copyright 2022. All Rights Reserved</h6>
+        </div>
+
+        <div class="col"></div>
+
+        <div class="col">
+          <h5>Company</h5>
+          <ul class="nav flex-column mt-4">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">About Us</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Terms of Use</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Privacy & Policy</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h5>Support</h5>
+          <ul class="nav flex-column mt-4">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Refund Policy</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Live Chatting</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">Rewards</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h5>Connect</h5>
+          <ul class="nav flex-column mt-4">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">rentCar@gmail.com</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark">021-4567-8932</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-dark"
+                >Jl. Impian, Bekasi, Jawa Barat, Indonesia
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <!-- Akhir Footer -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -1,0 +1,48 @@
+.top {
+  background-image: url("../img/peter-broomfield-m3m-lnR90uM-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  height: 25vh;
+}
+
+a h3 {
+  margin: auto 8px;
+}
+
+.search {
+  margin-top: 7rem;
+  /* border: 1px solid white; */
+}
+
+.search svg {
+  margin: auto 5px;
+}
+
+.search input {
+  width: 300px;
+  height: 40px;
+  /* margin-top: 7rem; */
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.bar {
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f1f1f1;
+}
